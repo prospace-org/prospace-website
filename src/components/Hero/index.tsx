@@ -9,7 +9,7 @@ export type HeroProps = Props
 
 function Hero({ content }: Props) {
   return (
-    <Section py={4}>
+    <Section py={10}>
       <Container>
         <Grid.Container justify="center">
           <Row justify="space-around" style={{ textAlign: 'center' }}>
@@ -17,7 +17,7 @@ function Hero({ content }: Props) {
               <svg
                 viewBox="0 0 900 400"
                 style={{
-                  width: '18em',
+                  width: '14em',
                   verticalAlign: 'middle',
                   marginBottom: 10
                 }}
