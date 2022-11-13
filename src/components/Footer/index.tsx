@@ -84,7 +84,7 @@ function Footer() {
               </svg>
             </Row>
             <Text h6 my={0}>
-              © {new Date().getFullYear()} ProSpace . Todos os direitos
+              © {new Date().getFullYear()} ProSpace. Todos os direitos
               reservados.
             </Text>
           </Grid>
